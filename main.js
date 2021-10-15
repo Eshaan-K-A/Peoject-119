@@ -17,7 +17,7 @@ function gotResult(error, result){
     }
     else{
         console.log(result)
-        document.getElementById("object-name-span").innerHTML = result[0].label;
-        document.getElementById("object-accuracy-span").innerHTML = result[0].confidence;
+        document.getElementById("resultPersonName").innerHTML = result[0].label;
+        document.getElementById("resultPersonAccuracy").innerHTML = result[0].confidence;
     }
 }
